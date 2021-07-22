@@ -1,0 +1,382 @@
+html, body{
+    height: 100%;
+}
+body{
+    color: grey;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Raleway", sans-serif;
+}
+p{
+    font-family: "Open-Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+section{
+    background: white;
+    overflow: hidden;
+}
+
+/*preloader*/
+
+#preloader{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status{
+    background-image: url("../preloader/preloader2.gif");
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+    
+    left: 50%;
+    top: 50%;
+    
+    margin-left: +350px;
+    margin-top: +35px;
+    
+}
+
+
+
+#Home-img{
+    position:fixed;
+    top: 50px;
+    left: 50px;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size:auto;
+    z-index: -1;
+}
+
+
+
+.btn-general{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin: 0 6px;
+    padding: 12px 46px 12px 46px;
+    transition: all .5s;
+    
+}
+.btn-Home{
+    color: white;
+    border: 1px solid white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.btn-Home:hover,
+.btn-Home:focus{
+    color: white;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+}
+
+/*arrow down*/
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: white;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+}
+#arrow-down:hover,
+#arrow-down:focus {
+    color: darkblue;
+}
+/*about 01*/
+.content-box-lg{
+    padding: 0 0 120px 0;  
+}
+.content-box-md{
+    padding: 100px 0;
+}
+.vertical-heading h2{
+    margin:0 0 0 35px;
+    font-size: 42px;
+    font-weight: 200;
+    line-height: 45px;
+}
+
+.vertical-heading h2 strong{
+    color: darkblue;
+}
+
+#About Me-right p{
+    margin-bottom: 15px;
+    font-size: 100px;
+    line-height: inherit;
+}
+#Home{
+    margin-top: 70px;
+    margin-bottom:0px;
+    background-size: contain;
+     background-color: #f4f4f4;
+    
+}
+#Home-right{
+    margin-top: 50px;
+    font: 15px arial,sans-serif;
+    font: italic large bold 12px/30px Georgia,serif;
+    font-weight:bolder;
+    line-height: inherit;
+    color: skyblue;
+}
+#About Me{
+    margin-top: auto;
+}
+#Home-image{
+    border-radius: 20px;
+    
+}
+
+#Skills{
+    margin-top:auto;
+}
+#Skills-bottom{
+    margin-top: 6px;;
+}
+
+#Skills{
+    background-color: #f4f4f4;
+    
+}
+.Skills-item{
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.Skills-item i{
+    font-size: 42px;
+    margin: 0;
+}
+.Skills-item h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.Skills-item hr{
+    width: 45px;
+    height: 3px;
+    background-color: darkblue;
+    margin: 0 auto;
+    border: none;
+}
+.Skills-item p{
+    margin-top: 20px; 
+}
+/*hover state*/
+.Skills-item:hover{
+    background-color: darkblue;
+}
+.Skills-item:hover i,
+.Skills-item:hover h3,
+.Skills-item:hover p{
+    color: white;
+}
+.Skills-item:hover hr{
+    background-color: white;
+}
+.Skills-item:hover i {
+    transform: translateY(-20px);
+}
+/*transition*/
+.Skills-item,
+.Skills-item i,
+.Skills-item h3,{
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+}
+
+/*statement*/
+#quote{
+    background: url("../img/pictures/statement.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#quote .content-box-lg{
+    background: rgba(0,0,0,0.3);
+}
+#tech-statement h3{
+    color: white;
+    font-size: 28px;
+    line-height: 45px;
+    margin-top: 120px;
+}   
+#tech-statement p{
+    color: darkblue;
+    font-size: 24px;
+}
+.horizontal-heading{
+    margin-bottom: 80px;
+    font-size: 52px;
+}
+#FindMeAt-01 img{
+    margin-top: 30px;
+}
+
+.FindMeAt{
+    margin: 10px 0;
+}
+
+.FindMeAt icon{
+    size: 200px;
+    margin: 0;
+    transition: all 400ms linear;
+}
+.FindMeAt:hover icon{
+    color: darkblue;
+    transform: translateX(-20px);
+    
+}
+.horizontal-heading strong{
+    color: darkblue;
+}
+
+.FindMeAt h4{
+    font-size: 32px;
+    margin: 0 0 8px 0;
+    color: darkblue;
+}
+.FindMeAt:hover h4{
+    color: grey;
+}
+.FindMeAt p{
+    line-height: normal;
+}
+
+#contact-ex{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+#contact-ex.input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+#contact-ex [type=submit]{
+    background-color: skyblue;
+}
+
+.contact container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.contact row{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.FindMeAt fa{
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+}
+.fa-github{
+    background: grey;
+    color: white;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
